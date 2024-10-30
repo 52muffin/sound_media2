@@ -21,57 +21,63 @@ function draw() {
   }
 
   //1
-  fill(210, 170, 140);
+  fill(221, 186, 163);
   beginShape();
   vertex(568, 315);
   vertex(571, 345);
   vertex(617, 335);
   endShape(CLOSE);
   //2
-  fill(240, 210, 210);
+  fill(238, 210, 199);
   beginShape();
   vertex(568, 315);
   vertex(609, 274);
   vertex(617, 335);
   endShape(CLOSE);
   //3
-  fill(240, 220, 220);
+  fill(243, 221, 206);
   beginShape();
   vertex(568, 315);
   vertex(609, 274);
   vertex(547, 255);
   endShape(CLOSE);
   //4
+  fill(168, 188, 215);
   beginShape();
   vertex(592, 209);
   vertex(609, 274);
   vertex(547, 255);
   endShape(CLOSE);
   //5
+  fill(165, 186, 216);
   beginShape();
   vertex(592, 209);
   vertex(609, 274);
   vertex(653, 229);
   endShape(CLOSE);
   //6
+  fill(142, 169, 207);
   beginShape();
   vertex(674, 310);
   vertex(609, 274);
   vertex(653, 229);
   endShape(CLOSE);
   //7
+  fill(231, 199, 187);
   beginShape();
   vertex(674, 310);
   vertex(609, 274);
   vertex(617, 335);
   endShape(CLOSE);
   //8
+  fill(255);
   beginShape();
   vertex(674, 310);
   vertex(708, 334);
   vertex(645, 360);
   endShape(CLOSE);
   //9
+  fill(255);
   beginShape();
   vertex(674, 310);
   vertex(708, 334);
@@ -79,96 +85,112 @@ function draw() {
   vertex(653, 229);
   endShape(CLOSE);
   //10
+  fill(255);
   beginShape();
   vertex(755, 269);
   vertex(696, 271);
   vertex(653, 229);
   endShape(CLOSE);
   //11
+  fill(255);
   beginShape();
   vertex(755, 269);
   vertex(696, 271);
   vertex(785, 327);
   endShape(CLOSE);
   //12
+  fill(255);
   beginShape();
   vertex(708, 334);
   vertex(696, 271);
   vertex(785, 327);
   endShape(CLOSE);
   //13
+  fill(255);
   beginShape();
   vertex(708, 334);
   vertex(752, 377);
   vertex(785, 327);
   endShape(CLOSE);
   //14
+  fill(255);
   beginShape();
   vertex(846, 319);
   vertex(818, 265);
   vertex(785, 327);
   endShape(CLOSE);
   //15
+  fill(255);
   beginShape();
   vertex(755, 269);
   vertex(818, 265);
   vertex(785, 327);
   endShape(CLOSE);
   //16
+  fill(255);
   beginShape();
   vertex(755, 269);
   vertex(818, 265);
   vertex(757, 229);
   endShape(CLOSE);
   //17
+  fill(255);
   beginShape();
   vertex(755, 269);
   vertex(653, 229);
   vertex(757, 229);
   endShape(CLOSE);
   //18
+  fill(255);
   beginShape();
   vertex(676, 163);
   vertex(653, 229);
   vertex(757, 229);
   endShape(CLOSE);
   //19
+  fill(255);
   beginShape();
   vertex(676, 163);
   vertex(653, 229);
   vertex(592, 209);
   endShape(CLOSE);
   //20
+  fill(255);
   beginShape();
   vertex(676, 163);
   vertex(583, 149);
   vertex(592, 209);
   endShape(CLOSE);
   //21
+  fill(255);
   beginShape();
   vertex(676, 163);
   vertex(583, 149);
   vertex(671, 118);
   endShape(CLOSE);
   //22
+  fill(255);
   beginShape();
   vertex(676, 163);
   vertex(739, 126);
   vertex(671, 118);
   endShape(CLOSE);
   //23
+  fill(255);
   beginShape();
   vertex(676, 163);
   vertex(739, 126);
   vertex(757, 229);
   endShape(CLOSE);
   //24
+  fill(255);
   beginShape();
   vertex(825, 215);
   vertex(739, 126);
   vertex(757, 229);
   endShape(CLOSE);
   //25
+  fill(255);
   beginShape();
   vertex(825, 215);
   vertex(818, 265);
