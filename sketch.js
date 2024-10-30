@@ -13,7 +13,7 @@ function setup() {
 
 function draw() {
   image(img, 0, 0);
-  image(img2, 120, 50, width / 4, height / 2);
+  //image(img2, 120, 50, width / 4, height / 2);
   if (mouseIsPressed == true) {
     //console.log("mouseX: " + mouseX, "mouseY: " + mouseY);
     let c = get(mouseX, mouseY);
@@ -70,14 +70,14 @@ function draw() {
   vertex(617, 335);
   endShape(CLOSE);
   //8
-  fill(255);
+  fill(217, 172, 143);
   beginShape();
   vertex(674, 310);
   vertex(708, 334);
   vertex(645, 360);
   endShape(CLOSE);
   //9
-  fill(255);
+  fill(131, 166, 203);
   beginShape();
   vertex(674, 310);
   vertex(708, 334);
@@ -85,112 +85,112 @@ function draw() {
   vertex(653, 229);
   endShape(CLOSE);
   //10
-  fill(255);
+  fill(83, 125, 173);
   beginShape();
   vertex(755, 269);
   vertex(696, 271);
   vertex(653, 229);
   endShape(CLOSE);
   //11
-  fill(255);
+  fill(50, 77, 115);
   beginShape();
   vertex(755, 269);
   vertex(696, 271);
   vertex(785, 327);
   endShape(CLOSE);
   //12
-  fill(255);
+  fill(31, 15, 16);
   beginShape();
   vertex(708, 334);
   vertex(696, 271);
   vertex(785, 327);
   endShape(CLOSE);
   //13
-  fill(255);
+  fill(63, 62, 73);
   beginShape();
   vertex(708, 334);
   vertex(752, 377);
   vertex(785, 327);
   endShape(CLOSE);
   //14
-  fill(255);
+  fill(26, 12, 13);
   beginShape();
   vertex(846, 319);
   vertex(818, 265);
   vertex(785, 327);
   endShape(CLOSE);
   //15
-  fill(255);
+  fill(36, 35, 47);
   beginShape();
   vertex(755, 269);
   vertex(818, 265);
   vertex(785, 327);
   endShape(CLOSE);
   //16
-  fill(255);
+  fill(47, 67, 96);
   beginShape();
   vertex(755, 269);
   vertex(818, 265);
   vertex(757, 229);
   endShape(CLOSE);
   //17
-  fill(255);
+  fill(107, 144, 187);
   beginShape();
   vertex(755, 269);
   vertex(653, 229);
   vertex(757, 229);
   endShape(CLOSE);
   //18
-  fill(255);
+  fill(161, 183, 212);
   beginShape();
   vertex(676, 163);
   vertex(653, 229);
   vertex(757, 229);
   endShape(CLOSE);
   //19
-  fill(255);
+  fill(174, 189, 210);
   beginShape();
   vertex(676, 163);
   vertex(653, 229);
   vertex(592, 209);
   endShape(CLOSE);
   //20
-  fill(255);
+  fill(174, 191, 210);
   beginShape();
   vertex(676, 163);
   vertex(583, 149);
   vertex(592, 209);
   endShape(CLOSE);
   //21
-  fill(255);
+  fill(162, 183, 208);
   beginShape();
   vertex(676, 163);
   vertex(583, 149);
   vertex(671, 118);
   endShape(CLOSE);
   //22
-  fill(255);
+  fill(113, 139, 171);
   beginShape();
   vertex(676, 163);
   vertex(739, 126);
   vertex(671, 118);
   endShape(CLOSE);
   //23
-  fill(255);
+  fill(138, 171, 205);
   beginShape();
   vertex(676, 163);
   vertex(739, 126);
   vertex(757, 229);
   endShape(CLOSE);
   //24
-  fill(255);
+  fill(134, 168, 206);
   beginShape();
   vertex(825, 215);
   vertex(739, 126);
   vertex(757, 229);
   endShape(CLOSE);
   //25
-  fill(255);
+  fill(61, 66, 81);
   beginShape();
   vertex(825, 215);
   vertex(818, 265);
