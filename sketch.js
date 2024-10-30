@@ -11,4 +11,7 @@ function setup() {
 function draw() {
   //background(220);
   image(img, 0, 0);
+  if (mouseIsPressed == true) {
+    console.log("mouseX: " + mouseX, "mouseY: " + mouseY);
+  }
 }
