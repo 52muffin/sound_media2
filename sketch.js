@@ -1,7 +1,9 @@
 let img;
+let img2;
 
 function preload() {
   img = loadImage("jj.png");
+  img2 = loadImage("picture.jpg");
 }
 
 function setup() {
@@ -11,23 +13,29 @@ function setup() {
 
 function draw() {
   image(img, 0, 0);
+  image(img2, 120, 50, width / 4, height / 2);
   if (mouseIsPressed == true) {
-    console.log("mouseX: " + mouseX, "mouseY: " + mouseY);
+    //console.log("mouseX: " + mouseX, "mouseY: " + mouseY);
+    let c = get(mouseX, mouseY);
+    console.log('RGB: ' + red(c) + ', ' + green(c) + ', ' + blue(c));
   }
-  fill(0, 150);
+
   //1
+  fill(210, 170, 140);
   beginShape();
   vertex(568, 315);
   vertex(571, 345);
   vertex(617, 335);
   endShape(CLOSE);
   //2
+  fill(240, 210, 210);
   beginShape();
   vertex(568, 315);
   vertex(609, 274);
   vertex(617, 335);
   endShape(CLOSE);
   //3
+  fill(240, 220, 220);
   beginShape();
   vertex(568, 315);
   vertex(609, 274);
